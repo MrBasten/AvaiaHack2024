@@ -283,8 +283,9 @@ dependencies:
       - cloudpickle==3.1.0
       - compressed-tensors==0.8.1
       - dataclasses-json==0.6.7
+      - datasets==3.2.0
       - depyf==0.18.0
-      - dill==0.3.9
+      - dill==0.3.8
       - diskcache==5.6.3
       - distro==1.9.0
       - docutils==0.16
@@ -292,7 +293,7 @@ dependencies:
       - fastapi==0.115.6
       - filelock==3.16.1
       - frozenlist==1.5.0
-      - fsspec==2024.12.0
+      - fsspec==2024.9.0
       - gguf==0.10.0
       - gigachat==0.1.36
       - greenlet==3.1.1
@@ -313,6 +314,7 @@ dependencies:
       - langchain-experimental==0.3.3
       - langchain-gigachat==0.3.2
       - langchain-ollama==0.2.2
+      - langchain-openai==0.2.14
       - langchain-text-splitters==0.3.4
       - langsmith==0.2.4
       - lark==1.2.2
@@ -323,6 +325,7 @@ dependencies:
       - msgpack==1.1.0
       - msgspec==0.18.6
       - multidict==6.1.0
+      - multiprocess==0.70.16
       - networkx==3.4.2
       - numpy==1.26.4
       - nvidia-cublas-cu12==12.4.5.8
@@ -351,6 +354,7 @@ dependencies:
       - propcache==0.2.1
       - protobuf==5.29.2
       - py-cpuinfo==9.0.0
+      - pyarrow==18.1.0
       - pyasn1==0.6.1
       - pybind11==2.13.6
       - pycountry==24.6.1
@@ -387,5 +391,6 @@ dependencies:
       - widgetsnbextension==4.0.13
       - xformers==0.0.28.post3
       - xgrammar==0.1.7
+      - xxhash==3.5.0
       - yarl==1.18.3
-prefix: /home/stenin_ka/miniconda3/envs/pzh
+prefix: /home/itcenter/miniconda3/envs/pzh
