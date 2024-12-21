@@ -74,6 +74,10 @@ create_environment:
 data: requirements
 	$(PYTHON_INTERPRETER) pzh/dataset.py
 
+.PHONY: data
+data: requirements
+	$(PYTHON_INTERPRETER) pzh/features.py
+
 
 #################################################################################
 # Self Documenting Commands                                                     #
